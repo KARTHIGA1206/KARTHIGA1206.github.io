@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Karthiga K – AI/ML Portfolio</title>
+<style>
+:root{--bg:#f5f6fa;--surface:#ffffff;--fg:#182036;--muted:#58627a;--accent:#1d6b5c;--accent-bg:#dff0ec;--rule:#dde1ea;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111622;--surface:#1a2133;--fg:#e8ebf3;--muted:#a0a9bd;--accent:#6fd0bb;--accent-bg:#1b3a37;--rule:#2b3349}}
+:root[data-theme="dark"]{--bg:#111622;--surface:#1a2133;--fg:#e8ebf3;--muted:#a0a9bd;--accent:#6fd0bb;--accent-bg:#1b3a37;--rule:#2b3349}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:900px;margin:0 auto;padding:0 22px}
+nav{display:flex;gap:20px;flex-wrap:wrap;padding:18px 0;font-size:.95rem}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover,nav a:focus-visible{color:var(--accent)}
+.hero{padding:56px 0 48px}
+h1{font:700 clamp(2.6rem,9vw,4.6rem)/1.02 "Iowan Old Style",Palatino,Georgia,serif;margin:0 0 18px;letter-spacing:-.01em}
+.lead{font-size:1.2rem;max-width:34em;color:var(--muted);margin:0 0 26px}
+.links{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:10px 18px;border-radius:8px;border:1.5px solid var(--accent);text-decoration:none;font-weight:600}
+.btn.primary{background:var(--accent);color:var(--bg)}
+section{padding:44px 0;border-top:1px solid var(--rule)}
+h2{font:700 1.7rem/1.2 "Iowan Old Style",Palatino,Georgia,serif;margin:0 0 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:22px}
+.card h3{margin:0 0 6px;font-size:1.15rem}
+.chip{display:inline-block;font-size:.8rem;font-weight:600;padding:2px 10px;border-radius:99px;background:var(--accent-bg);color:var(--accent);margin-bottom:12px}
+.card ul{margin:0 0 12px;padding-left:20px}
+.card li{margin-bottom:6px}
+.tech{font-size:.92rem;color:var(--muted);margin:0}
+dl{margin:0}
+dt{font-weight:700;margin-top:14px}
+dt:first-child{margin-top:0}
+dd{margin:2px 0 0;color:var(--muted)}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
+.skills div{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:16px 18px}
+.skills b{display:block;margin-bottom:4px}
+.skills span{color:var(--muted)}
+footer{padding:28px 0 40px;border-top:1px solid var(--rule);color:var(--muted);font-size:.9rem}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Sections"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></nav>
+
+<header class="hero">
+<h1>Karthiga K</h1>
+<p class="lead">Third-year B.Tech AI &amp; Machine Learning student, applying programming and machine learning to practical problems.</p>
+<div class="links">
+<a class="btn primary" href="#projects">See my projects</a>
+<a class="btn" href="#contact">Get in touch</a>
+</div>
+</header>
+
+<section id="about">
+<h2>About me</h2>
+<p>I study Artificial Intelligence and Machine Learning at Bannari Amman Institute of Technology, Sathyamangalam. I'm looking for an AI/ML internship where I can gain hands-on experience, improve my technical skills, and contribute to real-world projects.</p>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="grid">
+<article class="card">
+<span class="chip">Completed</span>
+<h3>Student Performance Predictor</h3>
+<ul>
+<li>Predicts student performance categories: Excellent, Good, Average, and At Risk.</li>
+<li>Uses academic performance, attendance, and behavioural information as input features.</li>
+<li>Workflow: data preprocessing, outlier handling, categorical encoding, feature scaling, training and comparing classification models, and evaluating model performance.</li>
+<li>Aims to help identify students who may need additional academic support.</li>
+</ul>
+<p class="tech"><b>Technologies:</b> Python, Machine Learning</p>
+</article>
+<article class="card">
+<span class="chip">Ongoing</span>
+<h3>AI-Powered Welfare Scheme Recommendation System</h3>
+<ul>
+<li>An AI-based system that helps users identify government welfare schemes based on their eligibility.</li>
+<li>Focuses on eligibility-based recommendations and easier access to welfare information.</li>
+<li>Project scope includes multilingual support and a conversational interface.</li>
+</ul>
+</article>
+</div>
+<p style="margin-top:18px"><a href="https://github.com/KARTHIGA1206" target="_blank" rel="noopener">More on my GitHub profile</a></p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div><b>Programming</b><span>Python, C, C++, Java</span></div>
+<div><b>Database</b><span>SQL</span></div>
+<div><b>Web</b><span>HTML, CSS</span></div>
+<div><b>Design tools</b><span>Figma, Canva</span></div>
+<div><b>Areas of study</b><span>Artificial Intelligence, Machine Learning</span></div>
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<dl>
+<dt>B.Tech – Artificial Intelligence &amp; Machine Learning</dt>
+<dd>Bannari Amman Institute of Technology, Sathyamangalam · 2024 – 2028 (Expected), currently in 3rd year</dd>
+<dt>Higher Secondary Certificate (HSC)</dt>
+<dd>Tiruvannamalai District Government Model School · 2024</dd>
+<dt>Secondary School Leaving Certificate (SSLC)</dt>
+<dd>Municipal Girls Government Model Higher Secondary School · 2022</dd>
+</dl>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>I'm open to AI/ML internship opportunities. The quickest way to reach me is by email.</p>
+<div class="links">
+<a class="btn primary" href="mailto:karthigak.al24@bitsathy.ac.in">Email me</a>
+<a class="btn" href="https://www.linkedin.com/in/karthiga-k-6381b1355/" target="_blank" rel="noopener">LinkedIn</a>
+<a class="btn" href="https://github.com/KARTHIGA1206" target="_blank" rel="noopener">GitHub</a>
+</div>
+<p style="margin-top:16px;color:var(--muted)">Phone: 6385231969 · Languages: Tamil, English, Kannada (basic)</p>
+</section>
+
+<footer>© Karthiga K</footer>
+</div>
+</body>
+</html>
